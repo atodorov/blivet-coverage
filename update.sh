@@ -28,7 +28,7 @@ DIFF=`git diff`
 # changes detected
 if [ -n "$DIFF" ]; then
     git commit -a -m "Updated coverage results from $DATE"
-    git tag "pykickstart-$DATE"
+    git tag "blivet-$DATE"
     git push --tags origin master
 fi
 
