@@ -14,7 +14,7 @@ for f in ".coverage" \
         "coverage-report.log"; do
 
     tgt=`basename $f`
-    wget "$JENKINS/job/blivet-x86_64/lastSuccessfulBuild/artifact/$f" -O "$tgt" 2>/dev/null
+    wget "$JENKINS/job/blivet-master-x86_64/lastSuccessfulBuild/artifact/$f" -O "$tgt" 2>/dev/null
     if [ "$?" -ne "0" ]; then
         echo "Downloading $f failed ..."
         git checkout "$tgt"
