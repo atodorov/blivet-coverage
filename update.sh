@@ -28,6 +28,8 @@ if [ -n "$DIFF" ]; then
     git commit -a -m "Updated test results from $DATE"
     git tag "blivet-$DATE"
     git push --tags origin master
+else
+    echo "Nothing changed"
 fi
 
 popd
