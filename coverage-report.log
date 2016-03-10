@@ -34,8 +34,8 @@ blivet/devices/optical.py                        32     19      6      0    34%
 blivet/devices/partition.py                     436    190    156     23    51%
 blivet/devices/raid.py                           33      6     12      1    80%
 blivet/devices/storage.py                       373     86    161     19    74%
-blivet/devicetree.py                            402    175    256     33    52%
-blivet/errors.py                                118      4      0      0    97%
+blivet/devicetree.py                            402    175    256     34    52%
+blivet/errors.py                                116      4      0      0    97%
 blivet/events/__init__.py                         0      0      0      0   100%
 blivet/events/changes.py                         28      6      0      0    79%
 blivet/events/handler.py                        109     87     44      0    14%
@@ -81,7 +81,7 @@ blivet/populator/helpers/partition.py            58     27     20      4    45%
 blivet/populator/helpers/populatorhelper.py      12      3      0      0    75%
 blivet/populator/populator.py                   320    244    146      3    19%
 blivet/safe_dbus.py                              60     29     23      2    40%
-blivet/size.py                                  186     21     75     11    85%
+blivet/size.py                                   59      8     20      4    82%
 blivet/storage_log.py                            50      1     15      2    95%
 blivet/tasks/__init__.py                          0      0      0      0   100%
 blivet/tasks/availability.py                    131     12     16      4    89%
@@ -104,7 +104,7 @@ blivet/tasks/task.py                             36      5      8      0    89%
 blivet/threads.py                                45      8     14      2    80%
 blivet/tsort.py                                  42     36     23      1    11%
 blivet/udev.py                                  405    228    153     15    38%
-blivet/util.py                                  557    243    202     24    53%
+blivet/util.py                                  557    245    202     23    53%
 blivet/zfcp.py                                  227    192     72      0    12%
 -------------------------------------------------------------------------------
-TOTAL                                         15938   6598   5892    697    54%
+TOTAL                                         15809   6587   5837    690    53%
