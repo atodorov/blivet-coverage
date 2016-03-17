@@ -44,7 +44,7 @@ blivet/fcoe.py                                  100     76     30      0    18%
 blivet/flags.py                                  63     21     12      3    65%
 blivet/formats/__init__.py                      325    128     95     12    55%
 blivet/formats/biosboot.py                       21      2      0      0    90%
-blivet/formats/disklabel.py                     245     92     52      7    63%
+blivet/formats/disklabel.py                     245     94     52      7    63%
 blivet/formats/dmraid.py                         38     10      7      4    69%
 blivet/formats/fs.py                            649    205    126      8    62%
 blivet/formats/fslib.py                          11      0      4      0   100%
@@ -55,8 +55,8 @@ blivet/formats/multipath.py                      33      9      3      2    69%
 blivet/formats/prepboot.py                       42     19      8      0    46%
 blivet/formats/swap.py                           83     29     14      2    62%
 blivet/i18n.py                                   16      2     14      1    77%
-blivet/iscsi.py                                 273    197    119      3    20%
-blivet/mounts.py                                 69     38     22      2    41%
+blivet/iscsi.py                                 273    190    119      3    22%
+blivet/mounts.py                                 69     40     22      3    37%
 blivet/osinstall.py                             684    579    299      1    12%
 blivet/partitioning.py                          914    209    524     91    74%
 blivet/partspec.py                               21     15      0      0    29%
@@ -80,7 +80,7 @@ blivet/populator/helpers/optical.py              12      0      0      0   100%
 blivet/populator/helpers/partition.py            58     27     20      4    45%
 blivet/populator/helpers/populatorhelper.py      12      3      0      0    75%
 blivet/populator/populator.py                   320    244    146      3    19%
-blivet/safe_dbus.py                              60     29     23      2    40%
+blivet/safe_dbus.py                              60     24     23      4    51%
 blivet/size.py                                   59      8     20      4    82%
 blivet/storage_log.py                            50      1     15      2    95%
 blivet/tasks/__init__.py                          0      0      0      0   100%
@@ -91,7 +91,7 @@ blivet/tasks/fsinfo.py                           44     14      8      0    62%
 blivet/tasks/fslabeling.py                       39      1      2      0    98%
 blivet/tasks/fsminsize.py                        92     63     29      0    26%
 blivet/tasks/fsmkfs.py                          104     36     16      0    60%
-blivet/tasks/fsmount.py                          91     34     25      3    54%
+blivet/tasks/fsmount.py                          91     40     25      1    45%
 blivet/tasks/fsreadlabel.py                      51     17      8      0    61%
 blivet/tasks/fsresize.py                         59     20      8      0    64%
 blivet/tasks/fssize.py                           77     42     29      0    35%
@@ -103,8 +103,8 @@ blivet/tasks/pvtask.py                           19      6      0      0    68%
 blivet/tasks/task.py                             36      5      8      0    89%
 blivet/threads.py                                45      8     14      2    80%
 blivet/tsort.py                                  42     36     23      1    11%
-blivet/udev.py                                  405    228    153     15    38%
-blivet/util.py                                  557    245    202     23    53%
+blivet/udev.py                                  405    235    153     18    35%
+blivet/util.py                                  557    243    202     22    53%
 blivet/zfcp.py                                  227    192     72      0    12%
 -------------------------------------------------------------------------------
-TOTAL                                         15809   6587   5837    690    53%
+TOTAL                                         15809   6590   5837    693    53%
