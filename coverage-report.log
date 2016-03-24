@@ -26,7 +26,7 @@ blivet/devices/lib.py                            76     15     32      4    75%
 blivet/devices/loop.py                           54     25     12      2    47%
 blivet/devices/luks.py                           59     31     16      1    39%
 blivet/devices/lvm.py                          1140    422    472     69    58%
-blivet/devices/md.py                            341    136    101     10    56%
+blivet/devices/md.py                            361    140    113     12    57%
 blivet/devices/network.py                         4      2      0      0    50%
 blivet/devices/nfs.py                            26     10      0      0    62%
 blivet/devices/nodev.py                          46     25      6      0    40%
@@ -107,4 +107,4 @@ blivet/udev.py                                  405    235    153     18    35%
 blivet/util.py                                  557    243    202     22    53%
 blivet/zfcp.py                                  227    192     72      0    12%
 -------------------------------------------------------------------------------
-TOTAL                                         15809   6590   5837    693    53%
+TOTAL                                         15829   6594   5849    695    53%
