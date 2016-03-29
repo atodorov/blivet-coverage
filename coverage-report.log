@@ -37,9 +37,9 @@ blivet/devices/storage.py                       373     86    161     19    74%
 blivet/devicetree.py                            402    175    256     34    52%
 blivet/errors.py                                116      4      0      0    97%
 blivet/events/__init__.py                         0      0      0      0   100%
-blivet/events/changes.py                         28      6      0      0    79%
-blivet/events/handler.py                        109     87     44      0    14%
-blivet/events/manager.py                        160     49     43     10    66%
+blivet/events/changes.py                         32      7      2      1    76%
+blivet/events/handler.py                        110     87     44      0    15%
+blivet/events/manager.py                        158     49     43     10    66%
 blivet/fcoe.py                                  100     76     30      0    18%
 blivet/flags.py                                  63     21     12      3    65%
 blivet/formats/__init__.py                      325    128     95     12    55%
@@ -107,4 +107,4 @@ blivet/udev.py                                  405    235    153     18    35%
 blivet/util.py                                  557    243    202     22    53%
 blivet/zfcp.py                                  227    192     72      0    12%
 -------------------------------------------------------------------------------
-TOTAL                                         15829   6594   5849    695    53%
+TOTAL                                         15832   6595   5851    696    53%
