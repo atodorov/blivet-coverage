@@ -34,7 +34,7 @@ blivet/devices/optical.py                        32     19      6      0    34%
 blivet/devices/partition.py                     436    190    156     23    51%
 blivet/devices/raid.py                           33      6     12      1    80%
 blivet/devices/storage.py                       373     86    161     19    74%
-blivet/devicetree.py                            402    175    256     34    52%
+blivet/devicetree.py                            402    175    256     33    52%
 blivet/errors.py                                116      4      0      0    97%
 blivet/events/__init__.py                         0      0      0      0   100%
 blivet/events/changes.py                         32      7      2      1    76%
@@ -107,4 +107,4 @@ blivet/udev.py                                  405    235    153     18    35%
 blivet/util.py                                  557    243    202     22    53%
 blivet/zfcp.py                                  227    192     72      0    12%
 -------------------------------------------------------------------------------
-TOTAL                                         15832   6595   5851    696    53%
+TOTAL                                         15832   6595   5851    695    53%
