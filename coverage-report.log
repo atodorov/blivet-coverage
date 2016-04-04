@@ -58,7 +58,7 @@ blivet/i18n.py                                   16      2     14      1    77%
 blivet/iscsi.py                                 273    190    119      3    22%
 blivet/mounts.py                                 69     40     22      3    37%
 blivet/osinstall.py                             684    579    299      1    12%
-blivet/partitioning.py                          914    209    524     91    74%
+blivet/partitioning.py                          915    210    524     91    74%
 blivet/partspec.py                               21     15      0      0    29%
 blivet/platform.py                              257     98     68     12    53%
 blivet/populator/__init__.py                      1      0      0      0   100%
@@ -79,7 +79,7 @@ blivet/populator/helpers/multipath.py            33      7      2      1    77%
 blivet/populator/helpers/optical.py              12      0      0      0   100%
 blivet/populator/helpers/partition.py            58     27     20      4    45%
 blivet/populator/helpers/populatorhelper.py      12      3      0      0    75%
-blivet/populator/populator.py                   320    244    146      3    19%
+blivet/populator/populator.py                   322    246    148      3    19%
 blivet/safe_dbus.py                              60     24     23      4    51%
 blivet/size.py                                   59      8     20      4    82%
 blivet/storage_log.py                            50      1     15      2    95%
@@ -107,4 +107,4 @@ blivet/udev.py                                  405    235    153     18    35%
 blivet/util.py                                  557    243    202     22    53%
 blivet/zfcp.py                                  227    192     72      0    12%
 -------------------------------------------------------------------------------
-TOTAL                                         15832   6595   5851    695    53%
+TOTAL                                         15835   6598   5853    695    53%
