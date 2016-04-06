@@ -1,9 +1,9 @@
 Name                                          Stmts   Miss Branch BrPart  Cover
 -------------------------------------------------------------------------------
-blivet/__init__.py                               83     30     12      3    61%
+blivet/__init__.py                               83     31     12      3    60%
 blivet/actionlist.py                            183    110    105      6    33%
 blivet/arch.py                                  160    118    102      6    18%
-blivet/blivet.py                                933    499    532     63    41%
+blivet/blivet.py                                624    275    342     53    50%
 blivet/callbacks.py                              11      1      0      0    91%
 blivet/deviceaction.py                          477    142    212     41    65%
 blivet/devicefactory.py                         858    186    374     52    74%
@@ -34,7 +34,7 @@ blivet/devices/optical.py                        32     19      6      0    34%
 blivet/devices/partition.py                     436    190    156     23    51%
 blivet/devices/raid.py                           33      6     12      1    80%
 blivet/devices/storage.py                       373     86    161     19    74%
-blivet/devicetree.py                            402    175    256     33    52%
+blivet/devicetree.py                            408    175    260     33    53%
 blivet/errors.py                                116      4      0      0    97%
 blivet/events/__init__.py                         0      0      0      0   100%
 blivet/events/changes.py                         32      7      2      1    76%
@@ -57,7 +57,7 @@ blivet/formats/swap.py                           83     29     14      2    62%
 blivet/i18n.py                                   16      2     14      1    77%
 blivet/iscsi.py                                 273    190    119      3    22%
 blivet/mounts.py                                 69     40     22      3    37%
-blivet/osinstall.py                             684    579    299      1    12%
+blivet/osinstall.py                            1021    838    495      8    14%
 blivet/partitioning.py                          915    210    524     91    74%
 blivet/partspec.py                               21     15      0      0    29%
 blivet/platform.py                              257     98     68     12    53%
@@ -79,7 +79,7 @@ blivet/populator/helpers/multipath.py            33      7      2      1    77%
 blivet/populator/helpers/optical.py              12      0      0      0   100%
 blivet/populator/helpers/partition.py            58     27     20      4    45%
 blivet/populator/helpers/populatorhelper.py      12      3      0      0    75%
-blivet/populator/populator.py                   322    246    148      3    19%
+blivet/populator/populator.py                   294    225    134      3    19%
 blivet/safe_dbus.py                              60     24     23      4    51%
 blivet/size.py                                   59      8     20      4    82%
 blivet/storage_log.py                            50      1     15      2    95%
@@ -107,4 +107,4 @@ blivet/udev.py                                  405    235    153     18    35%
 blivet/util.py                                  557    243    202     22    53%
 blivet/zfcp.py                                  227    192     72      0    12%
 -------------------------------------------------------------------------------
-TOTAL                                         15835   6598   5853    695    53%
+TOTAL                                         15841   6613   5849    692    53%
