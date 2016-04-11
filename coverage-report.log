@@ -7,7 +7,7 @@ blivet/autopart.py                              209    187    126      0     7%
 blivet/blivet.py                                624    275    342     53    50%
 blivet/callbacks.py                              11      1      0      0    91%
 blivet/deviceaction.py                          477    134    212     42    66%
-blivet/devicefactory.py                         858    186    374     52    74%
+blivet/devicefactory.py                         856    186    372     51    74%
 blivet/devicelibs/__init__.py                     0      0      0      0   100%
 blivet/devicelibs/btrfs.py                       10      0      0      0   100%
 blivet/devicelibs/crypto.py                       6      0      0      0   100%
@@ -110,4 +110,4 @@ blivet/udev.py                                  405    235    153     18    35%
 blivet/util.py                                  557    241    202     23    54%
 blivet/zfcp.py                                  227    192     72      0    12%
 -------------------------------------------------------------------------------
-TOTAL                                         16066   6766   5975    699    53%
+TOTAL                                         16064   6766   5973    698    53%
