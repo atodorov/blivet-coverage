@@ -26,7 +26,7 @@ blivet/devices/file.py                           70     33     16      2    45%
 blivet/devices/lib.py                            76     15     32      4    75%
 blivet/devices/loop.py                           54     25     12      2    47%
 blivet/devices/luks.py                           59     31     16      1    39%
-blivet/devices/lvm.py                          1140    422    472     69    58%
+blivet/devices/lvm.py                          1145    427    478     69    58%
 blivet/devices/md.py                            361    140    113     12    57%
 blivet/devices/network.py                         4      2      0      0    50%
 blivet/devices/nfs.py                            26     10      0      0    62%
@@ -35,8 +35,8 @@ blivet/devices/optical.py                        32     19      6      0    34%
 blivet/devices/partition.py                     436    190    156     23    51%
 blivet/devices/raid.py                           33      6     12      1    80%
 blivet/devices/storage.py                       373     80    161     20    75%
-blivet/devicetree.py                            408    175    260     33    53%
-blivet/errors.py                                116      4      0      0    97%
+blivet/devicetree.py                            408    175    260     34    53%
+blivet/errors.py                                118      4      0      0    97%
 blivet/events/__init__.py                         0      0      0      0   100%
 blivet/events/changes.py                         32      7      2      1    76%
 blivet/events/handler.py                        110     87     44      0    15%
@@ -75,7 +75,7 @@ blivet/populator/helpers/formatpopulator.py      49      8     12      2    80%
 blivet/populator/helpers/loop.py                 25      0      4      2    93%
 blivet/populator/helpers/luks.py                 64     44     18      0    24%
 blivet/populator/helpers/lvm.py                 269    136    114     23    46%
-blivet/populator/helpers/mdraid.py              118     44     36     12    57%
+blivet/populator/helpers/mdraid.py              122     47     36     12    56%
 blivet/populator/helpers/multipath.py            33      7      2      1    77%
 blivet/populator/helpers/optical.py              12      0      0      0   100%
 blivet/populator/helpers/partition.py            58     27     20      4    45%
@@ -110,4 +110,4 @@ blivet/udev.py                                  405    235    153     18    35%
 blivet/util.py                                  557    241    202     23    54%
 blivet/zfcp.py                                  227    192     72      0    12%
 -------------------------------------------------------------------------------
-TOTAL                                         16064   6766   5973    698    53%
+TOTAL                                         16075   6774   5979    699    53%
