@@ -16,7 +16,7 @@ blivet/devicelibs/lvm.py                         92     40     30      6    49%
 blivet/devicelibs/mdraid.py                      12      0      0      0   100%
 blivet/devicelibs/raid.py                       289     33     99     14    87%
 blivet/devices/__init__.py                       16      0      0      0   100%
-blivet/devices/btrfs.py                         341    148    108     12    53%
+blivet/devices/btrfs.py                         343    150    112     12    52%
 blivet/devices/cache.py                          39     15      6      0    67%
 blivet/devices/container.py                      72     27     36      7    57%
 blivet/devices/device.py                        110     21     39      4    77%
@@ -34,7 +34,7 @@ blivet/devices/nodev.py                          46     25      6      0    40%
 blivet/devices/optical.py                        32     19      6      0    34%
 blivet/devices/partition.py                     436    190    156     23    51%
 blivet/devices/raid.py                           33      6     12      1    80%
-blivet/devices/storage.py                       373     84    161     21    74%
+blivet/devices/storage.py                       373     80    161     20    75%
 blivet/devicetree.py                            408    180    260     33    52%
 blivet/errors.py                                118      4      0      0    97%
 blivet/events/__init__.py                         0      0      0      0   100%
@@ -110,4 +110,4 @@ blivet/udev.py                                  405    235    153     18    35%
 blivet/util.py                                  557    241    202     23    54%
 blivet/zfcp.py                                  227    192     72      0    12%
 -------------------------------------------------------------------------------
-TOTAL                                         16120   6844   6012    698    52%
+TOTAL                                         16122   6842   6016    697    52%
