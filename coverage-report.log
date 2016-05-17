@@ -68,7 +68,7 @@ blivet/mounts.py                                 70     51     24      0    20%
 blivet/osinstall.py                            1166    951    542     11    15%
 blivet/partitioning.py                          919    221    530     91    73%
 blivet/partspec.py                               21     15      0      0    29%
-blivet/platform.py                              257     98     68     12    53%
+blivet/platform.py                              258     98     68     12    53%
 blivet/populator/__init__.py                      1      0      0      0   100%
 blivet/populator/helpers/__init__.py             36      0     16      2    96%
 blivet/populator/helpers/boot.py                 24      1      2      1    92%
@@ -117,4 +117,4 @@ blivet/udev.py                                  405    260    153      5    27%
 blivet/util.py                                  544    237    198     23    53%
 blivet/zfcp.py                                  227    192     72      0    12%
 -------------------------------------------------------------------------------
-TOTAL                                         16414   6981   6058    681    52%
+TOTAL                                         16415   6981   6058    681    52%
