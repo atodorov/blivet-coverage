@@ -13,7 +13,7 @@ blivet/dbus/constants.py                         14      0      0      0   100%
 blivet/dbus/device.py                            33      4     10      1    84%
 blivet/dbus/format.py                            23      2      2      0    92%
 blivet/dbus/object.py                            40     12      6      1    63%
-blivet/deviceaction.py                          480    127    214     45    68%
+blivet/deviceaction.py                          549    134    242     55    70%
 blivet/devicefactory.py                         859    187    374     52    74%
 blivet/devicelibs/__init__.py                     0      0      0      0   100%
 blivet/devicelibs/btrfs.py                       10      0      0      0   100%
@@ -54,7 +54,7 @@ blivet/formats/__init__.py                      310    109     89     13    58%
 blivet/formats/biosboot.py                       21      2      0      0    90%
 blivet/formats/disklabel.py                     264    103     60      9    62%
 blivet/formats/dmraid.py                         38     10      7      4    69%
-blivet/formats/fs.py                            649    210    124      6    61%
+blivet/formats/fs.py                            651    211    126      6    61%
 blivet/formats/fslib.py                          11      0      4      0   100%
 blivet/formats/luks.py                          140     66     28      5    47%
 blivet/formats/lvmpv.py                          86     28      6      1    64%
@@ -118,4 +118,4 @@ blivet/udev.py                                  415    248    161     16    33%
 blivet/util.py                                  544    237    198     23    53%
 blivet/zfcp.py                                  227    192     72      0    12%
 -------------------------------------------------------------------------------
-TOTAL                                         16526   6749   6093    728    54%
+TOTAL                                         16597   6757   6123    738    54%
