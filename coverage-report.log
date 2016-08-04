@@ -4,7 +4,7 @@ blivet/__init__.py                               49     12      6      2    75%
 blivet/actionlist.py                            187     93    108      7    42%
 blivet/arch.py                                  160    109    102     10    25%
 blivet/autopart.py                              214    191    132      0     7%
-blivet/blivet.py                                594    240    326     53    54%
+blivet/blivet.py                                594    241    328     54    54%
 blivet/callbacks.py                              37      4      2      1    87%
 blivet/dbus/__init__.py                           0      0      0      0   100%
 blivet/dbus/action.py                            16      0      0      0   100%
@@ -33,7 +33,7 @@ blivet/devices/file.py                           70     33     16      2    45%
 blivet/devices/lib.py                            76     16     32      5    73%
 blivet/devices/loop.py                           54     25     12      2    47%
 blivet/devices/luks.py                           59     31     16      1    39%
-blivet/devices/lvm.py                          1205    365    524     92    65%
+blivet/devices/lvm.py                          1218    364    536     92    65%
 blivet/devices/md.py                            361    109    113     14    66%
 blivet/devices/network.py                         4      2      0      0    50%
 blivet/devices/nfs.py                            26     10      0      0    62%
@@ -41,8 +41,8 @@ blivet/devices/nodev.py                          46     25      6      0    40%
 blivet/devices/optical.py                        32     19      6      0    34%
 blivet/devices/partition.py                     456    150    168     32    62%
 blivet/devices/raid.py                           33      6     12      1    80%
-blivet/devices/storage.py                       375     50    161     21    85%
-blivet/devicetree.py                            409    136    262     30    64%
+blivet/devices/storage.py                       375     46    161     20    86%
+blivet/devicetree.py                            423    137    282     31    66%
 blivet/errors.py                                121      6      0      0    95%
 blivet/events/__init__.py                         0      0      0      0   100%
 blivet/events/changes.py                         56     23      2      0    57%
@@ -118,4 +118,4 @@ blivet/udev.py                                  415    248    159     15    33%
 blivet/util.py                                  544    237    198     23    53%
 blivet/zfcp.py                                  227    192     72      0    12%
 -------------------------------------------------------------------------------
-TOTAL                                         16646   6558   6167    770    56%
+TOTAL                                         16673   6555   6201    771    56%
