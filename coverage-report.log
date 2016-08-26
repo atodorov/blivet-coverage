@@ -1,19 +1,19 @@
 Name                                          Stmts   Miss Branch BrPart  Cover
 -------------------------------------------------------------------------------
 blivet/__init__.py                               49     12      6      2    75%
-blivet/actionlist.py                            187     93    108      7    42%
+blivet/actionlist.py                            189     95    110      7    42%
 blivet/arch.py                                  160    109    102     10    25%
 blivet/autopart.py                              214    191    132      0     7%
 blivet/blivet.py                                594    241    328     54    54%
 blivet/callbacks.py                              37      4      2      1    87%
 blivet/dbus/__init__.py                           0      0      0      0   100%
 blivet/dbus/action.py                            16      0      0      0   100%
-blivet/dbus/blivet.py                           139     57     44      6    51%
+blivet/dbus/blivet.py                           142     57     46      7    52%
 blivet/dbus/constants.py                         14      0      0      0   100%
 blivet/dbus/device.py                            33      4     10      1    84%
 blivet/dbus/format.py                            23      2      2      0    92%
 blivet/dbus/object.py                            40     12      6      1    63%
-blivet/deviceaction.py                          549    134    242     55    70%
+blivet/deviceaction.py                          551    135    244     56    69%
 blivet/devicefactory.py                         859    187    374     52    74%
 blivet/devicelibs/__init__.py                     0      0      0      0   100%
 blivet/devicelibs/btrfs.py                       10      0      0      0   100%
@@ -39,10 +39,10 @@ blivet/devices/network.py                         4      2      0      0    50%
 blivet/devices/nfs.py                            26     10      0      0    62%
 blivet/devices/nodev.py                          46     25      6      0    40%
 blivet/devices/optical.py                        32     19      6      0    34%
-blivet/devices/partition.py                     456    150    168     32    62%
+blivet/devices/partition.py                     458    152    170     32    62%
 blivet/devices/raid.py                           33      6     12      1    80%
-blivet/devices/storage.py                       375     50    161     21    85%
-blivet/devicetree.py                            420    136    280     30    66%
+blivet/devices/storage.py                       375     46    161     20    86%
+blivet/devicetree.py                            420    136    280     31    66%
 blivet/errors.py                                121      6      0      0    95%
 blivet/events/__init__.py                         0      0      0      0   100%
 blivet/events/changes.py                         56     23      2      0    57%
@@ -65,7 +65,7 @@ blivet/formats/swap.py                           83     23     14      2    68%
 blivet/i18n.py                                   16      2     14      1    77%
 blivet/iscsi.py                                 273    190    119      3    22%
 blivet/mounts.py                                 42     28     14      0    25%
-blivet/osinstall.py                            1169    916    542     20    18%
+blivet/osinstall.py                            1172    912    546     20    19%
 blivet/partitioning.py                          921    223    528     92    73%
 blivet/partspec.py                               21     15      0      0    29%
 blivet/platform.py                              258     98     68     12    53%
@@ -115,7 +115,7 @@ blivet/tasks/task.py                             36      5      8      0    89%
 blivet/threads.py                                45      8     14      2    80%
 blivet/tsort.py                                  42     36     23      1    11%
 blivet/udev.py                                  415    248    159     15    33%
-blivet/util.py                                  544    237    198     23    53%
+blivet/util.py                                  545    238    198     23    53%
 blivet/zfcp.py                                  227    192     72      0    12%
 -------------------------------------------------------------------------------
-TOTAL                                         16673   6559   6199    771    56%
+TOTAL                                         16686   6557   6211    773    56%
