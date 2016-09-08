@@ -4,7 +4,7 @@ blivet/__init__.py                               49     12      6      2    75%
 blivet/actionlist.py                            189     95    110      7    42%
 blivet/arch.py                                  160    109    102     10    25%
 blivet/autopart.py                              214    191    132      0     7%
-blivet/blivet.py                                594    241    328     54    54%
+blivet/blivet.py                                595    241    328     54    54%
 blivet/callbacks.py                              37      4      2      1    87%
 blivet/dbus/__init__.py                           0      0      0      0   100%
 blivet/dbus/action.py                            16      0      0      0   100%
@@ -13,7 +13,7 @@ blivet/dbus/constants.py                         14      0      0      0   100%
 blivet/dbus/device.py                            33      4     10      1    84%
 blivet/dbus/format.py                            23      2      2      0    92%
 blivet/dbus/object.py                            40     12      6      1    63%
-blivet/deviceaction.py                          551    135    244     56    69%
+blivet/deviceaction.py                          552    136    246     56    69%
 blivet/devicefactory.py                         859    187    374     52    74%
 blivet/devicelibs/__init__.py                     0      0      0      0   100%
 blivet/devicelibs/btrfs.py                       10      0      0      0   100%
@@ -27,7 +27,7 @@ blivet/devices/btrfs.py                         343    150    112     12    52%
 blivet/devices/cache.py                          39     15      6      0    67%
 blivet/devices/container.py                      72     27     36      7    57%
 blivet/devices/device.py                        110     18     39      4    81%
-blivet/devices/disk.py                          249    144     64      4    35%
+blivet/devices/disk.py                          251    146     64      4    35%
 blivet/devices/dm.py                            104     45     18      1    51%
 blivet/devices/file.py                           70     33     16      2    45%
 blivet/devices/lib.py                            76     16     32      5    73%
@@ -118,4 +118,4 @@ blivet/udev.py                                  415    248    159     15    33%
 blivet/util.py                                  545    238    198     23    53%
 blivet/zfcp.py                                  227    192     72      0    12%
 -------------------------------------------------------------------------------
-TOTAL                                         16686   6557   6211    773    56%
+TOTAL                                         16690   6560   6213    773    56%
