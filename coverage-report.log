@@ -13,8 +13,8 @@ blivet/dbus/constants.py                         14      0      0      0   100%
 blivet/dbus/device.py                            33      4     10      1    84%
 blivet/dbus/format.py                            23      2      2      0    92%
 blivet/dbus/object.py                            40     12      6      1    63%
-blivet/deviceaction.py                          555    139    248     56    69%
-blivet/devicefactory.py                         859    187    374     52    74%
+blivet/deviceaction.py                          554    138    246     56    69%
+blivet/devicefactory.py                         881    183    392     51    76%
 blivet/devicelibs/__init__.py                     0      0      0      0   100%
 blivet/devicelibs/btrfs.py                       10      0      0      0   100%
 blivet/devicelibs/crypto.py                       6      0      0      0   100%
@@ -33,7 +33,7 @@ blivet/devices/file.py                           70     33     16      2    45%
 blivet/devices/lib.py                            83     16     32      5    75%
 blivet/devices/loop.py                           54     25     12      2    47%
 blivet/devices/luks.py                           59     31     16      1    39%
-blivet/devices/lvm.py                          1218    364    536     92    65%
+blivet/devices/lvm.py                          1220    366    540     92    65%
 blivet/devices/md.py                            361    109    113     14    66%
 blivet/devices/network.py                         6      0      0      0   100%
 blivet/devices/nfs.py                            26     10      0      0    62%
@@ -41,7 +41,7 @@ blivet/devices/nodev.py                          46     25      6      0    40%
 blivet/devices/optical.py                        32     19      6      0    34%
 blivet/devices/partition.py                     460    152    170     32    62%
 blivet/devices/raid.py                           33      6     12      1    80%
-blivet/devices/storage.py                       375     47    161     21    85%
+blivet/devices/storage.py                       375     43    161     20    86%
 blivet/devicetree.py                            420    136    280     30    66%
 blivet/errors.py                                121      6      0      0    95%
 blivet/events/__init__.py                         0      0      0      0   100%
@@ -54,7 +54,7 @@ blivet/formats/__init__.py                      310     65     89     16    75%
 blivet/formats/biosboot.py                       21      2      0      0    90%
 blivet/formats/disklabel.py                     264    103     60      9    62%
 blivet/formats/dmraid.py                         38     10      7      4    69%
-blivet/formats/fs.py                            651    172    126     17    68%
+blivet/formats/fs.py                            651    179    126     16    67%
 blivet/formats/fslib.py                          11      0      4      0   100%
 blivet/formats/luks.py                          140     47     28      7    61%
 blivet/formats/lvmpv.py                          86     20      6      1    73%
@@ -66,7 +66,7 @@ blivet/i18n.py                                   16      2     14      1    77%
 blivet/iscsi.py                                 273    190    119      3    22%
 blivet/mounts.py                                 42     28     14      0    25%
 blivet/osinstall.py                            1172    912    546     20    19%
-blivet/partitioning.py                          925    224    532     93    73%
+blivet/partitioning.py                          925    229    532     95    72%
 blivet/partspec.py                               21     15      0      0    29%
 blivet/platform.py                              258     98     68     12    53%
 blivet/populator/__init__.py                      1      0      0      0   100%
@@ -74,14 +74,14 @@ blivet/populator/helpers/__init__.py             36      0     16      2    96%
 blivet/populator/helpers/boot.py                 24      1      2      1    92%
 blivet/populator/helpers/btrfs.py                54     42     23      0    16%
 blivet/populator/helpers/devicepopulator.py      17      9      4      0    38%
-blivet/populator/helpers/disk.py                128     71     14      1    41%
+blivet/populator/helpers/disk.py                128     65     14      1    45%
 blivet/populator/helpers/disklabel.py            71     52     24      0    20%
 blivet/populator/helpers/dm.py                   26      2      4      1    90%
 blivet/populator/helpers/dmraid.py               38     24      8      0    30%
 blivet/populator/helpers/formatpopulator.py      45      8     10      2    78%
 blivet/populator/helpers/loop.py                 25      0      4      2    93%
 blivet/populator/helpers/luks.py                 65     44     18      0    25%
-blivet/populator/helpers/lvm.py                 268    136    114     23    46%
+blivet/populator/helpers/lvm.py                 272    140    114     23    45%
 blivet/populator/helpers/mdraid.py              126     50     36     12    56%
 blivet/populator/helpers/multipath.py            33      7      2      1    77%
 blivet/populator/helpers/optical.py              12      0      0      0   100%
@@ -114,8 +114,8 @@ blivet/tasks/pvtask.py                           19      6      0      0    68%
 blivet/tasks/task.py                             36      5      8      0    89%
 blivet/threads.py                                45      8     14      2    80%
 blivet/tsort.py                                  42     36     23      1    11%
-blivet/udev.py                                  415    248    159     15    33%
-blivet/util.py                                  545    238    198     23    53%
+blivet/udev.py                                  415    229    159     17    37%
+blivet/util.py                                  545    241    198     24    52%
 blivet/zfcp.py                                  227    192     72      0    12%
 -------------------------------------------------------------------------------
-TOTAL                                         16741   6545   6230    776    56%
+TOTAL                                         16768   6532   6250    778    56%
