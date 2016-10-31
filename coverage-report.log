@@ -14,7 +14,7 @@ blivet/dbus/device.py                            33      4     10      1    84%
 blivet/dbus/format.py                            23      2      2      0    92%
 blivet/dbus/object.py                            40     12      6      1    63%
 blivet/deviceaction.py                          554    138    246     56    69%
-blivet/devicefactory.py                         881    183    392     50    76%
+blivet/devicefactory.py                         881    183    392     51    76%
 blivet/devicelibs/__init__.py                     0      0      0      0   100%
 blivet/devicelibs/btrfs.py                       10      0      0      0   100%
 blivet/devicelibs/crypto.py                       6      0      0      0   100%
@@ -63,10 +63,10 @@ blivet/formats/multipath.py                      33      9      3      2    69%
 blivet/formats/prepboot.py                       42     19      6      0    48%
 blivet/formats/swap.py                           83     23     14      2    68%
 blivet/i18n.py                                   16      2     14      1    77%
-blivet/iscsi.py                                 273    190    119      3    22%
+blivet/iscsi.py                                 270    187    119      3    22%
 blivet/mounts.py                                 42     28     14      0    25%
 blivet/osinstall.py                            1172    912    546     20    19%
-blivet/partitioning.py                          925    224    532     92    73%
+blivet/partitioning.py                          925    229    532     95    72%
 blivet/partspec.py                               21     15      0      0    29%
 blivet/platform.py                              258     98     68     12    53%
 blivet/populator/__init__.py                      1      0      0      0   100%
@@ -118,4 +118,4 @@ blivet/udev.py                                  415    229    159     17    37%
 blivet/util.py                                  545    241    198     24    52%
 blivet/zfcp.py                                  227    192     72      0    12%
 -------------------------------------------------------------------------------
-TOTAL                                         16768   6528   6250    774    56%
+TOTAL                                         16765   6530   6250    778    56%
