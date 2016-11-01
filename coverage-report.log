@@ -14,7 +14,7 @@ blivet/dbus/device.py                            33      4     10      1    84%
 blivet/dbus/format.py                            23      2      2      0    92%
 blivet/dbus/object.py                            40     12      6      1    63%
 blivet/deviceaction.py                          554    138    246     56    69%
-blivet/devicefactory.py                         881    183    392     51    76%
+blivet/devicefactory.py                         881    183    392     50    76%
 blivet/devicelibs/__init__.py                     0      0      0      0   100%
 blivet/devicelibs/btrfs.py                       10      0      0      0   100%
 blivet/devicelibs/crypto.py                       6      0      0      0   100%
@@ -27,7 +27,7 @@ blivet/devices/btrfs.py                         343    150    112     12    52%
 blivet/devices/cache.py                          39     15      6      0    67%
 blivet/devices/container.py                      72     27     36      7    57%
 blivet/devices/device.py                        113     18     37      3    81%
-blivet/devices/disk.py                          279    128     75      6    46%
+blivet/devices/disk.py                          278    127     75      6    46%
 blivet/devices/dm.py                            104     45     18      1    51%
 blivet/devices/file.py                           70     34     16      2    44%
 blivet/devices/lib.py                            83     16     32      5    75%
@@ -42,11 +42,11 @@ blivet/devices/optical.py                        32     19      6      0    34%
 blivet/devices/partition.py                     460    152    170     32    62%
 blivet/devices/raid.py                           33      6     12      1    80%
 blivet/devices/storage.py                       377     43    163     20    86%
-blivet/devicetree.py                            420    136    280     31    66%
+blivet/devicetree.py                            420    136    280     30    66%
 blivet/errors.py                                121      6      0      0    95%
 blivet/events/__init__.py                         0      0      0      0   100%
 blivet/events/changes.py                         56     23      2      0    57%
-blivet/events/handler.py                        109     87     44      0    14%
+blivet/events/handler.py                        111     88     44      0    15%
 blivet/events/manager.py                        161     51     43     10    65%
 blivet/fcoe.py                                  100     76     30      0    18%
 blivet/flags.py                                  46      3     10      3    89%
@@ -57,16 +57,16 @@ blivet/formats/dmraid.py                         38     10      7      4    69%
 blivet/formats/fs.py                            651    179    126     16    67%
 blivet/formats/fslib.py                          11      0      4      0   100%
 blivet/formats/luks.py                          140     47     28      7    61%
-blivet/formats/lvmpv.py                          86     20      6      1    73%
+blivet/formats/lvmpv.py                          83     20      6      1    72%
 blivet/formats/mdraid.py                         54     11      2      1    79%
 blivet/formats/multipath.py                      33      9      3      2    69%
 blivet/formats/prepboot.py                       42     19      6      0    48%
 blivet/formats/swap.py                           83     23     14      2    68%
 blivet/i18n.py                                   16      2     14      1    77%
-blivet/iscsi.py                                 270    187    119      3    22%
+blivet/iscsi.py                                 290    205    127      3    21%
 blivet/mounts.py                                 42     28     14      0    25%
 blivet/osinstall.py                            1172    912    546     20    19%
-blivet/partitioning.py                          925    229    532     95    72%
+blivet/partitioning.py                          925    224    532     92    73%
 blivet/partspec.py                               21     15      0      0    29%
 blivet/platform.py                              258     98     68     12    53%
 blivet/populator/__init__.py                      1      0      0      0   100%
@@ -75,7 +75,7 @@ blivet/populator/helpers/boot.py                 24      1      2      1    92%
 blivet/populator/helpers/btrfs.py                54     42     23      0    16%
 blivet/populator/helpers/devicepopulator.py      17      9      4      0    38%
 blivet/populator/helpers/disk.py                128     65     14      1    45%
-blivet/populator/helpers/disklabel.py            71     52     24      0    20%
+blivet/populator/helpers/disklabel.py            69     52     24      0    18%
 blivet/populator/helpers/dm.py                   26      2      4      1    90%
 blivet/populator/helpers/dmraid.py               38     24      8      0    30%
 blivet/populator/helpers/formatpopulator.py      45      8     10      2    78%
@@ -87,12 +87,13 @@ blivet/populator/helpers/multipath.py            33      7      2      1    77%
 blivet/populator/helpers/optical.py              12      0      0      0   100%
 blivet/populator/helpers/partition.py            57     23     22      5    49%
 blivet/populator/helpers/populatorhelper.py      12      3      0      0    75%
-blivet/populator/populator.py                   285    227    118      1    15%
+blivet/populator/populator.py                   288    230    120      1    14%
 blivet/safe_dbus.py                              60     24     21      4    52%
 blivet/size.py                                   58      5     20      0    91%
-blivet/static_data/__init__.py                    2      0      0      0   100%
+blivet/static_data/__init__.py                    3      0      0      0   100%
 blivet/static_data/luks_data.py                  44     15     10      2    57%
 blivet/static_data/lvm_info.py                   23      0      8      0   100%
+blivet/static_data/mpath_info.py                 23     10      4      0    48%
 blivet/storage_log.py                            50      1     15      2    95%
 blivet/tasks/__init__.py                          0      0      0      0   100%
 blivet/tasks/availability.py                    131     12     16      4    89%
@@ -118,4 +119,4 @@ blivet/udev.py                                  415    229    159     17    37%
 blivet/util.py                                  545    241    198     24    52%
 blivet/zfcp.py                                  227    192     72      0    12%
 -------------------------------------------------------------------------------
-TOTAL                                         16765   6530   6250    778    56%
+TOTAL                                         16808   6556   6264    773    56%
